@@ -12,7 +12,7 @@ Also, turn on `无需配对：任何人都可以通过蓝牙连接` in your `mak
 
 ## Detect Micro:bit with Your Smart Phone
 
-Some times you may need to check if the problem is in your Micro:bit or Raspberry Pi. You may need to use your smart phone or your laptop to check if your Micro:bit has Bluetooth service turned on A common problem is that your smart phone (like iPhone) or your laptop (with Windows OS) cannot find Micro:bit devices. This is because the common Bluetooth is quite different from Bluetooth Low Energy (BLE), which is used in Micro:bit, and your devices such as iPhone may not detect or display any BLE devices. You can find evidence from the [pybluez/pybluez: Bluetooth Python extension module (github.com)](https://github.com/pybluez/pybluez) repo that Bluetooth and BLE have quite different APIs:
+Sometimes you may need to check if the problem is in your Micro:bit or Raspberry Pi. You may need to use your smart phone or your laptop to check if your Micro:bit has Bluetooth service turned on. A common problem is that your smart phone (like iPhone) or your laptop (with Windows OS) cannot find Micro:bit devices. This is because the common Bluetooth is quite different from Bluetooth Low Energy (BLE), which is used in Micro:bit, and your devices such as iPhone may not detect or display any BLE devices. You can find evidence from the [pybluez/pybluez: Bluetooth Python extension module (github.com)](https://github.com/pybluez/pybluez) repo that Bluetooth and BLE have quite different APIs:
 
 ```python
 # For standard Bluetooth
